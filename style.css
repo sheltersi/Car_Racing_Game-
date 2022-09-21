@@ -1,0 +1,109 @@
+#container{
+    position: absolute;
+	top:115px;
+    height: 600px;
+    width: 103%;
+    margin-left: -2%;
+    margin-right: auto;
+    background-color: transparent;
+	text-align:center;
+    overflow: hidden;/******************************/
+    /*left: %;*/
+}
+.dashboard{  
+    color:#000;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.kmBoard{  
+    border: 1px solid blue;
+    padding: 0.7em;
+    border-radius: 25px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+	cursor:crosshair;
+	font-size:12px;
+	margin-top:6px;
+}
+
+.fiveYears{ 
+    width: 280px;
+    border: 3px solid white;
+    padding: 0.3em;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+	cursor:pointer;
+	font-size:15px;
+	cursor:pointer;
+}
+
+.btnStart{ 
+    width: 280px;
+    z-index: 200;
+    border: 3px solid white;
+    padding: 0.3em;
+    border-radius: 25px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:3px;
+}
+.road{
+    position: absolute;
+    height: 300px;
+    width: 70%;
+    top: 305px;
+    text-align: center;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
+.road:before{
+    content:"Happy 5years Cardano!";
+    top:30%;
+    color:white;
+	font-size:40px;
+    width: 2px;
+    height: 30px;  
+    position: absolute;
+}
+
+.classWallet{
+    position: absolute;
+    height: 260px;
+    width: 130px;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-image: url(car2.png);
+    background-size: cover;
+    z-index: 99;
+    text-align: center;
+	font-size: 35px;
+	text-align: center;
+	color:#fff;
+}
+.pWallet{
+    position: absolute;
+    height: 80px;
+    width: 40px;
+    bottom: 30px;
+    left: 150px;
+    border-radius: 5px;
+    background-image: url(car1.png);
+    background-size: cover;
+    z-index: 100;
+}
+
+option{
+	 cursor:pointer;
+}
